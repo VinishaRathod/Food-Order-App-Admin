@@ -1,0 +1,34 @@
+.orders-container {
+    padding: 25px;
+    overflow-y: auto;
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .order {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .order-header,
+  .order-items,
+  .order-amount,
+  .order-address {
+    margin-bottom: 12px;
+  }
+  
+  .order-header h2 {
+    margin: 0;
+  }
+  
+  .order-items ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-items li {
+    margin-bottom: 10px;
+  }
+  
